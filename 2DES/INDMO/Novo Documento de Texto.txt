@@ -1,0 +1,7 @@
+Interface para dispositivos moveis
+
+ENIAC => celular(android-linux),(IOS), (Windows phone), (simbian)
+
+HTC
+
+https://appinventor.mit.edu/

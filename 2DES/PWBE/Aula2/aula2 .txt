@@ -1,0 +1,43 @@
+
+abrir vscode pelo gitbash = code . 
+
+BANCO
+
+Abrir terminal = ctrl + aspas
+
+ligar xampp(mysql)
+
+mysql -u  root
+
+copiar script e colocar no terminal
+
+
+BACK
+
+cd back = entrar na pasta
+
+npm i
+
+node server.js
+
+npm i -g nodemon
+
+npx nodemon
+
+testar = localhost:3000
+
+rota read = /clientes
+
+/create?
+
+criar um novo cpf = http://localhost:3000/clientes/create?cpf=123.456.789-12
+
+
+http://localhost:3000/clientes/create?cpf=123&nome=ana&sobrenome=ana&nascimento=200-02-02
+
+3306 = mysql
+
+3000 = localhost
+
+ctrl + c para parar terminal
+
