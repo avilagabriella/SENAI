@@ -37,7 +37,7 @@ const create = (req, res) => {
 
         else
 
-            res.redirect("http://127.0.0.1:5500/Projeto-pwbe/front/form.html");
+            res.redirect("http://127.0.0.1:5500/front/form.html");
 
     });
 
