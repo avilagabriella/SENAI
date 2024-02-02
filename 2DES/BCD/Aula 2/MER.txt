@@ -1,0 +1,16 @@
+MER
+    Dicionário de dados 
+                        { Estrutura
+DER
+    Dados
+          {Tabelas, campos e registros(linhas das tabelas)
+
+777-7 = 100-200-100= 700
+
+333-7 = -100
+
+333-8 = 1300+200 = 1700
+
+444-6 = 1600
+
+777-8 = 300+200+200 = 700
