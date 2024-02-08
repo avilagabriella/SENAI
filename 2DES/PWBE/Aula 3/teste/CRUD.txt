@@ -1,0 +1,13 @@
+CRUD    |   SQL-DML	|	HTTP
+--------------------------------------
+Create    insert into...        POST
+
+Read      select from where	GET
+
+Update     update where		PUT
+
+Delete     from where		DELETE
+
+back 
+	{ quando responde pros dois é api, quandoé front é back
+api

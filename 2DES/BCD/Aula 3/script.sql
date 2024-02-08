@@ -19,7 +19,8 @@ create table telefone(
     cpf varchar(20) not null,
     tipo varchar(20) not null,
     numero varchar(20) not null,
-    foreign key(cpf) references Cliente(cpf)
+    foreign key(cpf) references Cliente(cpf),
+     on delete cascade on update cascade
 );
 create table Cartao(
     id_cartao varchar(100) not null primary key,
@@ -48,7 +49,7 @@ create table Pedido(
      foreign key(cpf_cliente) references Cliente(cpf),
      foreign key(id_produto) references Produto(id),
      foreign key(cpf_funcionario) references Funcionario(cpf)
-
+""
 );
 
 

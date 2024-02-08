@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="FOTO/icon.png"> 
+    <title>Cantina</title>
+</head>
+<body>
+    <header>
+        <h1>Listar Vendas</h1>
+    </header>
+    
+    <nav>
+        <a class="botton" href="./index.html">Cadastra-se</a>
+        
+
+    </nav>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    
+                    <th>Nome</th>
+                    <th>Produto</th>
+                    <th>Valor</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                    <th>Data</th>
+
+                </tr>
+            </thead>
+            <tbody id="dados">
+            </tbody>
+        </table>
+    </main>
+    
+    
+</body>
+<script>
+    const dados = document.getElementById('dados');
+    fetch('http://localhost:3000/Salgados')
+        .then(res => res.json())
+        .then(res => {
+            res.forEach(cli => {
+                dados.innerHTML += `
+                    <tr>
+                       
+                        <td>${cli.nome}</td>
+                        <td>${cli.produtos}</td>
+                        <td>${cli.valor}</td>
+                        <td>${cli.quantidade}</td>
+                        <td>${cli.total}</td>
+                        <td>${cli.data}</td>
+                       
+                    </tr>
+                `;
+            });
+        });
+</script>
+</html>
