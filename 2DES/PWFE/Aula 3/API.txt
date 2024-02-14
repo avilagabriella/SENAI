@@ -1,0 +1,16 @@
+API 
+---------------------------
+api - back end  
+
+web, app - front end
+---------------------------
+
+
+FULLSTACK
+
+banco de dados(SQL, SSL)-API-web(http),app
+---------------------------
+tirar dependencia=
+deletar package.look e nodemon- primeira dependencia
+
+para instalar dnv npm i
