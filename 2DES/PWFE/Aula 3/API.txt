@@ -14,3 +14,8 @@ tirar dependencia=
 deletar package.look e nodemon- primeira dependencia
 
 para instalar dnv npm i
+------------------------------
+
+separar o prograna em:
+
+mode-view-controller
