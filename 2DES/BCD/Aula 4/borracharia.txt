@@ -1,0 +1,17 @@
+Desafio: projeto Full stack
+
+Tema: Borracharia
+
+Back: Tabelas banco: 	Fornecedores
+			Clientes
+			Produtos
+
+
+Front: crie 3 paginas
+
+-Fornecedores : HTML
+
+-Clientes: HTML		} Crie um INDEX.HTML 
+			que de acesso as paginas
+
+-Produtos: HTML 			
