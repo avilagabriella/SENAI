@@ -1,0 +1,13 @@
+Aula 5= Navegando entre janelas
+
+YARN - gerenciador de pacotes(navegador, regex, node)
+
+navegador entre janelas => navigator
+
+regex - identificar strin ou numeros e formata
+
+power shell - instalar scoop => irm get.scop.sh | iex
+
+cmd => scoop install yarn
+
+Aula 5 = vs code
