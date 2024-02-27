@@ -1,0 +1,9 @@
+http 80
+
+nodeJS 3000
+
+php 8080
+
+jsp 8080
+
+asp 8081
