@@ -35,7 +35,7 @@ export default function LoginForm({ navigation }) {
     //view
     return (
         <View style={styles.container}>
-            <Text>Formulario de cadastro</Text>
+            <Text>Formulário de cadastro</Text>
             <View style={styles.form}>
                 {/* USERNAME */}
                 <MaskInput

@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { StyleSheet, Text, View, Switch, Image } from 'react-native';
+import { StyleSheet, Text, View, Switch, Image, ImageBackground } from 'react-native';
 
 const icon = require('./assets/DC_Logo.webp');
+const backgroundImage = require('./assets/');
 
 export default function App() {
   const [habilitado, setHabilitado] = new useState(false);
