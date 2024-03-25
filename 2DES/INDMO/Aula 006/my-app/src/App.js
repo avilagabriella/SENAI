@@ -111,7 +111,7 @@ function App() {
           <ProductCard name="Produto 7" addToCart={addToCart} />
           <ProductCard name="Produto 8" addToCart={addToCart} />
           <ProductCard name="Produto 9" addToCart={addToCart} />
-          <ProductCard name="Produto 10" addToCart={addToCart} />
+         
         
 
         </div>
