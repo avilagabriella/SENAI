@@ -1,36 +1,33 @@
-drop databse if exits sql
-create database sql
-use sql
+CREATE DATABASE ofi;
+USE ofi;
+
+CREATE TABLE Veiculo (
+    placa VARCHAR(20) PRIMARY KEY,
+    modelo VARCHAR(50),
+    marca VARCHAR(50),
+    ano INT
+);
 
 CREATE TABLE Manutencao (
-    id_manutencao INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    inicio_manutencao date(100) NOT NULL,
-    fim_manutencao date(50) NOT NULL,
-    descricao VARCHAR(100) NOT NULL
+    id_Manutencao INT PRIMARY KEY,
+    inicio_Manutencao DATE,
+    fim_Manutencao DATE,
+    descricao VARCHAR(255),
+    placa VARCHAR(20),
+    FOREIGN KEY (Placa) REFERENCES Veiculo(Placa)
 );
 
 CREATE TABLE Funcionario (
-    matricula INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    nome VARCHAR(100) NOT NULL,
-    telefone  VARCHAR(20) NOT NULL,
-    FOREIGN KEY (telefone) REFERENCES Telefone(telefone)
+    matricula INT PRIMARY KEY,
+    nome VARCHAR(100)
 );
 
 CREATE TABLE Telefone (
-    telefone VARCHAR(20) NOT NULL PRIMARY KEY
+    matricula INT,
+    numero VARCHAR(20),
+    PRIMARY KEY (Matricula, Numero),
+    FOREIGN KEY (Matricula) REFERENCES Funcionario(Matricula)
 );
-
-CREATE TABLE Veiculo (
-    placa INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    modelo VARCHAR(20) NOT NULL,
-    marca VARCHAR(50) NOT NULL,
-    ano date(100) NOT NULL,
-    id_manutencao INT,
-    matricula VARCHAR(20) NOT NULL,
-    FOREIGN KEY (id_manutencao) REFERENCES Manutencao(id_manutencao),
-    FOREIGN KEY (matricula) REFERENCES Funcionario(matricula)
-);
-
 
 DESCRIBE Manutencao;
 DESCRIBE Funcionario;
