@@ -5,7 +5,7 @@
  
  Manutenção (id_manutencao: inteiro – auto incremento, tipo: texto(15, inicio_manutencao: data, fim_manutencao: data, descricao: texto(100));
 
- Funcionário (matricula:texto(20), nome(100), telefone:texto(20)[chave estrangeira referencia Telefone(telefone)]);
+ Funcionário (matricula:texto(20), nome(100));
 
  Veículo (placa:texto(10), modelo:texto(20), marca:texto(20), ano:data, id_manutencao[chave estrangeira referencia Manutenção(id_manutencao)]);
 

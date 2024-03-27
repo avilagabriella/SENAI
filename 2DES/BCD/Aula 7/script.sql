@@ -1,5 +1,5 @@
-CREATE DATABASE ofi;
-USE ofi;
+CREATE DATABASE oficina;
+USE oficina;
 
 CREATE TABLE Veiculo (
     placa VARCHAR(20) PRIMARY KEY,
@@ -14,7 +14,7 @@ CREATE TABLE Manutencao (
     fim_Manutencao DATE,
     descricao VARCHAR(255),
     placa VARCHAR(20),
-    FOREIGN KEY (Placa) REFERENCES Veiculo(Placa)
+    FOREIGN KEY (placa) REFERENCES Veiculo(placa)
 );
 
 CREATE TABLE Funcionario (
@@ -25,12 +25,7 @@ CREATE TABLE Funcionario (
 CREATE TABLE Telefone (
     matricula INT,
     numero VARCHAR(20),
-    PRIMARY KEY (Matricula, Numero),
-    FOREIGN KEY (Matricula) REFERENCES Funcionario(Matricula)
+    PRIMARY KEY (matricula, numero),
+    FOREIGN KEY (matricula) REFERENCES Funcionario(matricula)
 );
 
-DESCRIBE Manutencao;
-DESCRIBE Funcionario;
-DESCRIBE Veiculo;
-DESCRIBE Telefone;
-SHOW TABLES;
