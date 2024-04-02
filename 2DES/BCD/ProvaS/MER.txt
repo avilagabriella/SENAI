@@ -1,0 +1,9 @@
+MER- DICIÓNARIO DE DADOS
+
+
+- Veiculo (id_placa:texto(10)[chave primaria], modelo:texto(20), marca:texto(20), diaria:tipo inteiro);
+- Cliente (cpf_cliente[chave primaria], nome_cliente;texto(50), telefone:tipo texto(20));
+- Alugue (reserva:texto(30)[chave primaria], id_placa[chave estrangeira referenciando Veiculo(id_placa)], cpf_cliente[chave estrangeira referenciando Cliente(cpf_cliente)], retirada:data, devolucao:data), dias:tipo inteiro, status:texto(10), subtotal:numerico(decimal));
+- Telefone (numero:tipo texto(20), reserva:texto(30));
+
+
