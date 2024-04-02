@@ -33,3 +33,4 @@ CREATE TABLE Alugueis(
     foreign key (id_placa) references Veiculo(id_placa) on update cascade,
     foreign key (cpf_cliente) references Cliente(cpf_cliente) on update cascade
 );
+
