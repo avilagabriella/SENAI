@@ -1,0 +1,97 @@
+Estilos gerais
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos da barra de navegação */
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+}
+
+/* Estilos das listas de reprodução */
+.playlist {
+    margin-top: 30px;
+}
+
+.playlist h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.playlist .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.playlist .list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+/* Estilos do player de música */
+.audio-player {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #e9ecef;
+}
+
+/* Estilos dos modais */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+}
+
+.modal-body input,
+.modal-body textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.modal-body input:focus,
+.modal-body textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.modal-footer button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.modal-footer button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
