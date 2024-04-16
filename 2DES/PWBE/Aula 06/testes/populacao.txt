@@ -1,0 +1,16 @@
+
+
+INSERT INTO Usuarios(idUsuarios, nome, email, senha) values
+  (125, 'João Silva', 'joao.silva@example.com', 'password123'),
+  (123, 'Maria Santos', 'maria.santos@example.com', 'qwerty456'),
+  (129, 'Carlos Oliveira', 'carlos.oliveira@example.com', '1234abcd');
+
+
+
+INSERT INTO Tarefas (idTarefas, descricao, DataVencimento, status, usuario_id) values
+  (1, 'Encomenda de 5 kg para o cliente X no endereço Y', 'Em andamento', DATE('2024-03-27'), 129),
+  (2, 'Receber 10 unidades de produto Z do fornecedor A', 'Aguardando' DATE('2024-04-15'), 125),
+  (3, 'Atualizar sistema de gestão de estoque para melhorar a precisão dos níveis de estoque', 'Não entregue', DATE('2024-03-30'), 123);
+
+select * from Usuarios;
+select * from Tarefas;
