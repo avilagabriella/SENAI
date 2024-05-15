@@ -12,7 +12,7 @@ Necessário ter instalado:
 ### Para Executar:
 - 1. Clone este repositório
 - 2. Abra com VsCode
-- 3. Abra o terminal e acess a pasta ./my-app
+- 3. Abra o terminal e acess a pasta ./App
 - 4. Instale as dependências
     ```cms
     yarn
