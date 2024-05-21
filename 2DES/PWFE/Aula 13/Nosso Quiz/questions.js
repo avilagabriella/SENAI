@@ -30,7 +30,7 @@ export default [
     },
 
     {
-        question: "Quanto é 7 Qual das alternativas devemos acrescentar a 'crase'?",
+        question: "Qual das alternativas devemos acrescentar a 'crase'?",
         answers: [
             {option: "Meu restaurante vende bife a cavalo", correct:true},
             {option: "A menina vai a praia", correct:false},

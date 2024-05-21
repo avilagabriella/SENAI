@@ -13,17 +13,17 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 5px;
-    background:linear-gradient(90deg, rgb(131, 175, 237) 0%, rgba(77,39,182,1)100%); 
+    background:linear-gradient(90deg, rgb(12, 24, 46) 0%, rgb(24, 79, 190)100%); 
 
 }
 body h2 {
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 main {
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 100%;
     max-width: 300px;
     min-width: 200px;
@@ -55,9 +55,9 @@ button {
     text-align: start;
     padding: 5px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    background-color: #9dbae9;
+    background-color: #8aa0cf;
     color: rgb(62, 68, 82);
 }
 
