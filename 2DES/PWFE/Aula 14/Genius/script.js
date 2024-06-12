@@ -94,7 +94,11 @@ const processAnswers = () => {
         const properAnswer = roundAnswers[i];
         const playerAnswer = playerAnswers[i];
 
+<<<<<<< HEAD
         if (properAnswer !== playerAnswer) { 
+=======
+        if (properAnswer !== playerAnswer) {
+>>>>>>> faf4247b64ccfc738cc18b404900df219c9e9588
             allCorrect = false;
         }
     }
