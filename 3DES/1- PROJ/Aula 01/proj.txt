@@ -1,0 +1,22 @@
+
+
+
+Projeto
+                 Produto -> Site ou aplicativo(ou os dois)
+   |                        |                     
+                         Serviço
+
+Documentado  + Produto
+
+
+Patrocinador-senai
+
+Gerente- grupo
+
+
+
+Mirella e Rafa- banco e back
+
+Bryan - Front
+
+Ana
